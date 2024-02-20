@@ -6,6 +6,8 @@ from cycler import cycler
 colors = cycler(color=plt.get_cmap("tab10").colors)  # ["b", "r", "g"]
 # colors = cycler(color=["#282782", "r", "g"])
 
+cm = 1 / 2.54  # cm to inch
+
 mpl.style.use("ggplot")
 mpl.rcParams["figure.figsize"] = (16*cm, 9*cm)
 mpl.rcParams["axes.facecolor"] = "white"
